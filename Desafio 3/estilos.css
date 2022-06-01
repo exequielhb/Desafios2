@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+}
+
+main {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    background-color: #04146c;
+    font-size: 1.81rem;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4.12rem;
+    color: #04146c;
+}
+
+img {
+    width: 600px;
+}
