@@ -1,0 +1,21 @@
+
+input,
+button {
+    display: block;
+    width: 70%;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 11px;
+}
+
+div {
+    width: 50%;
+    margin: 0% auto;
+}
+
+form {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+}
