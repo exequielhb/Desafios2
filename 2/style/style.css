@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: 44px;
+    padding-left: 16%;
+    color: #0a2ff1;
+}
+
+main {
+    width: 76%;
+    padding: 10px;
+    margin: auto;
+    padding-left: 10%;
+    margin: 0% auto;
+    box-sizing: border-box;
+}
+
+main p {
+    margin-bottom: 3%;
+    width: 80%;
+    font-size: 19px;
+    color: #000000;
+}
+
+span {
+    font-size: 19px;
+    color: #0a2ff1;
+}
+
+button {
+    padding: 5px;
+    width: 22%;
+    color: white;
+    background-color: #0a2ff1;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.imagen1 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    background-size: contain;
+}
+
+.imagen2 {
+    width: 80%;
+    margin: auto;
+}
+
+.nota {
+    margin: 5% 0 3%;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 3%;
+    background-color: #15163d;
+    padding-top: 2%;
+}
+
+h1,
+p,
+span,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+span {
+    font-weight: 700;
+}
+
+p,
+button {
+    font-weight: 400;
+}
