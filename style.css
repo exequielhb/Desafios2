@@ -1,0 +1,64 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(/fuente/coolvetica\ rg.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(/fuente/coolvetica\ rg\ it.otf);
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 28px;
+}
+
+
+h1 {
+    font-size: 5.6rem;
+    font-family: coolvetica;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+p,
+button {
+    font-size: 1.87rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px 51px;
+}
+
+p {
+    width: 38%;
+    text-align: center;
+    font-weight: 300;
+    color: #04146c;
+}
+
+button {
+    font-weight: 400;
+}
+
+#prueba {
+    margin-top: 1%;
+    background-color: #0a2ff1;
+    color: white;
+    border: none;
+}
+
+#explora {
+    color: #04146c;
+    background-color: white;
+    border-color: #0a2ff1;;
+}
