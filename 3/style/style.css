@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4% 0 0 0;
+}
+
+div {
+    width: 48%;
+}
+
+button {
+    width: 228px;
+    height: 56px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: #0a2ff1;
+    cursor: pointer;
+}
+
+#contenido h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#contenido h1,
+#contenido h2 {
+    color: #0a2ff1;
+}
+
+
+#contenido h2 {
+    font-size: 30px;
+}
+
+#contenido h2,
+#contenido p {
+    font-weight: 400;
+}
+
+#contenido p {
+    font-size: 20px;
+    color: #04146c;
+}
+
+#contenido p span,
+#contenido button {
+    font-weight: 700;
+}
+
+#contenido h2,
+h1,
+p,
+button {
+    margin: 4% 1% 4% 3%;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* imagen */
+
+#imagen {
+    background: url(/img/D2-E3-pattern.png) no-repeat center;
+    background-size: 100%;
+}
+
+#imagen img {
+    width: 44%;
+    height: 78vh;
+    display: block;
+    border: 3px solid blue;
+    margin: 3% 0 0 11%;
+}
