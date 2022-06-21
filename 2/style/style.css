@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: fuente;
+    src: url(/style/coolvetica\ rg\ \(2\).otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 2% 0 2% 10%;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: fuente;
+    font-weight: 400;
+}
+
+h1, div h2 {
+    color: #0a2ff1;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+div {
+    background-color: #eff2ff;
+    width: 37%;
+    height: auto;
+    border-radius: 5%;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+div h2 {
+    margin: 3% 0 5% 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+div p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#segundo {
+    margin: 0% 0 4% 0;
+}
+
+div h2, p, span {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+div span, 
+div p {
+    color: #04146c;
+}
+
+div img {
+    width: 20%;
+    margin: auto;
+    display: block;
+    
+}
+
+div .mini {
+    width: 4%;
+    display: inline;
+    margin-left: 3%;
+}
+
+
+#mini{
+    margin: 0 0 0 13%;
+}
+
+/* ---------- */
+
+
