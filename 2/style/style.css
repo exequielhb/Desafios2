@@ -93,4 +93,8 @@ div .mini {
 
 /* ---------- */
 
-
+div #img2 {
+    width: 4%;
+    display: inline;
+    margin: 0 0 0 10em;
+}
