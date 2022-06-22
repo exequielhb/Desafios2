@@ -72,7 +72,7 @@ button {
 
 #imagen img {
     width: 44%;
-    height: 78vh;
+    height: auto;
     display: block;
     border: 3px solid blue;
     margin: 3% 0 0 11%;
