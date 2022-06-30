@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'PT Mono', monospace;
+}
+
+nav ul li a,
+main p,
+main span,
+main ul li {
+    color: #04146c;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+nav ul li:nth-child(3) {
+    font-weight: bold;
+}
+
+nav ul li a:nth-last-child(1),
+main h1 {
+    color: #0a2ff1;
+}
+
+#ultimo {
+    margin-right: 60%;
+}
+
+/* cuerpo */
+
+main {
+    margin-left: 6%;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+main h1 {
+    font-size: 60px;
+    margin-top: 5%;
+    font-weight: 400;
+}
+
+main p {
+    width: 75%;
+    margin: 4% 0 4% 0;
+}
+
+
+main p,
+main span,
+main ul li {
+    font-size: 30px;
+}
+
+/* listas */
+
+main ul {
+    list-style-type: none;
+    padding-left: 22px;
+}
+
+main ul:first-of-type li:nth-child(1) {
+    list-style-image: url(/img/vector.svg);
+}
+
+main ul:first-of-type li:nth-child(2) {
+    list-style-image: url(/img/foto.svg);
+}
+
+main ul:last-of-type li:nth-child(1) {
+    list-style-image: url(/img/licencia.svg);
+}
+
+main ul:last-of-type li:nth-child(2) {
+    list-style-image: url(/img/precio.svg);
+}
+
+span {
+    font-weight: bold;
+}
