@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap');
+
+h1,
+ul li {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight: 900 !important;
+}
+
+ul li{
+    font-weight: 700;
+}
